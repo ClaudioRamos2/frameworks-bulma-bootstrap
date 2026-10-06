@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TecnoCompu | Productos de cómputo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header class="p-3 mb-3 bg-dark border-bottom border-secondary" data-bs-theme="dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="index.html"
+          class="d-flex align-items-center mb-2 mb-lg-0 me-lg-4 link-body-emphasis text-decoration-none fs-4 fw-bold">
+          TecnoCompu
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#inicio" class="nav-link px-2 link-secondary">Inicio</a></li>
+          <li><a href="#laptops" class="nav-link px-2 link-body-emphasis">Laptops</a></li>
+          <li><a href="#componentes" class="nav-link px-2 link-body-emphasis">Componentes</a></li>
+          <li><a href="#perifericos" class="nav-link px-2 link-body-emphasis">Periféricos</a></li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Buscar producto..." aria-label="Buscar">
+        </form>
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="https://placehold.co/32x32/0d6efd/ffffff?text=U" alt="Usuario" width="32" height="32"
+              class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small">
+            <li><a class="dropdown-item" href="#">Mi carrito</a></li>
+            <li><a class="dropdown-item" href="#">Mis pedidos</a></li>
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="px-4 py-5 my-5 text-center" id="inicio">
+      <img class="d-block mx-auto mb-4" src="https://placehold.co/72x72/0d6efd/ffffff?text=TC" alt="Logo TecnoCompu"
+        width="72" height="72">
+      <h1 class="display-5 fw-bold text-body-emphasis">Todo en equipos de cómputo</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Laptops, componentes y periféricos para estudiar, trabajar y jugar. Compara
+          especificaciones, elige lo que necesitas y recibe tu pedido en todo el país.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="#laptops" class="btn btn-primary btn-lg px-4 gap-3">Ver productos</a>
+          <a href="#" class="btn btn-outline-secondary btn-lg px-4">Ofertas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <div class="col" id="laptops">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/1279109/pexels-photo-1279109.jpeg?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=Laptop+Pro+15'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="Laptop Pro 15">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Pro 15</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Intel Core i7 · 16 GB RAM · SSD 512 GB</h6>
+              <p class="card-text">Pantalla Full HD de 15.6", ideal para trabajo y estudio.</p>
+              <p class="fw-bold fs-5 mb-0">$ 18,990</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/30231780/pexels-photo-30231780/free-photo-of-moody-workspace-with-laptop-and-lamp.jpeg?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=Laptop+Gamer+X'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="Laptop Gamer X">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Gamer X</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Ryzen 7 · RTX 4060 · 16 GB RAM</h6>
+              <p class="card-text">Pantalla de 144 Hz y teclado retroiluminado para jugar sin límites.</p>
+              <p class="fw-bold fs-5 mb-0">$ 27,500</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="componentes">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/4584613/pexels-photo-4584613.jpeg?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=Tarjeta+grafica'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="Tarjeta gráfica">
+            <div class="card-body">
+              <h5 class="card-title">Tarjeta gráfica 8 GB</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">GDDR6 · PCIe 4.0</h6>
+              <p class="card-text">Más fotogramas y mejor rendimiento en edición y videojuegos.</p>
+              <p class="fw-bold fs-5 mb-0">$ 9,800</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/2588756/pexels-photo-2588756.jpeg?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=SSD+NVMe+1+TB'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="SSD NVMe 1 TB">
+            <div class="card-body">
+              <h5 class="card-title">SSD NVMe 1 TB</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Lectura hasta 3,500 MB/s</h6>
+              <p class="card-text">Arranca el sistema y abre tus programas en segundos.</p>
+              <p class="fw-bold fs-5 mb-0">$ 1,650</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="perifericos">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/30107913/pexels-photo-30107913/free-photo-of-cozy-night-workspace-with-warm-lighting.png?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=Monitor+27'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="Monitor 27 pulgadas">
+            <div class="card-body">
+              <h5 class="card-title">Monitor 27" QHD</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">IPS · 75 Hz · HDMI y DisplayPort</h6>
+              <p class="card-text">Colores precisos y más espacio de trabajo para tu escritorio.</p>
+              <p class="fw-bold fs-5 mb-0">$ 5,200</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=640"
+              onerror="this.onerror=null;this.src='https://placehold.co/640x480/e9ecef/495057?text=Teclado+y+mouse'"
+              class="card-img-top" loading="lazy" style="height:240px;object-fit:cover" alt="Combo teclado y mouse">
+            <div class="card-body">
+              <h5 class="card-title">Combo teclado y mouse</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Inalámbrico · Batería de larga duración</h6>
+              <p class="card-text">Cómodo y silencioso para usar todo el día.</p>
+              <p class="fw-bold fs-5 mb-0">$ 790</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 mt-5 mb-0 bg-dark" data-bs-theme="dark">
+    <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
+      <li class="nav-item"><a href="#inicio" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+      <li class="nav-item"><a href="#laptops" class="nav-link px-2 text-body-secondary">Productos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ofertas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Preguntas frecuentes</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2025 TecnoCompu, Inc</p>
+  </footer>
+</body>
+
+</html>
